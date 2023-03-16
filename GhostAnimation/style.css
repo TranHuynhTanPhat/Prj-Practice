@@ -1,0 +1,14 @@
+
+.ghost{
+    position: absolute;
+    left: 100%;
+    mix-blend-mode: exclusion;
+    animation: ghost 4.5s ease-in-out infinite
+}
+
+
+@keyframes ghost {
+    to{
+        left: -100px;
+    }
+}
